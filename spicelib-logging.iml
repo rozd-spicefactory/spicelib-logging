@@ -4,6 +4,11 @@
     <configurations>
       <configuration name="spicelib-logging" pure-as="true" output-type="Library" output-file="spicelib-logging.swc" output-folder="$MODULE_DIR$/../../mobitile/out/production/spicelib-logging">
         <dependencies target-player="11.6">
+          <entries>
+            <entry module-name="spicelib-util" build-configuration-name="spicelib-util">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="3.6.0" />
         </dependencies>
         <compiler-options />
@@ -22,6 +27,7 @@
     </content>
     <orderEntry type="jdk" jdkName="3.6.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spicelib-util" exported="" />
   </component>
 </module>
 
