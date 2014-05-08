@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="spicelib-logging">
     <configurations>
-      <configuration name="spicelib-logging" pure-as="true" output-type="Library" output-file="spicelib-logging.swc" output-folder="$MODULE_DIR$/../../mobitile/out/production/spicelib-logging">
+      <configuration name="spicelib-logging" pure-as="true" output-type="Library" output-file="spicelib-logging.swc" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="11.6">
           <entries>
             <entry module-name="spicelib-util" build-configuration-name="spicelib-util">
